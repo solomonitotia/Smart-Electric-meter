@@ -168,7 +168,7 @@ void ReadNsendenergyCalculations()
   Serial.print("AT"); 
   SIM900.println("AT");
   viewOnSerial();
-  SIM900.println("AT+CMGS=\"+254719563542\"\r"); // Sending Energy Consumption to Customer's Mobile Number
+  SIM900.println("AT+CMGS=\"+254710719728\"\r"); // Sending Energy Consumption to Customer's Mobile Number
   delay(1000); 
   SIM900.print("Dear Customer, Your Energy Consumption is KWH :");
   SIM900.print(sumWH);
